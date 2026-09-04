@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cpia 隐私政策 / Privacy Policy</title>
+  <style>
+    :root {
+      --accent: #007aff;
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --border: #d2d2d7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 24px 16px 64px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    header { text-align: center; padding: 40px 0 32px; }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+    header p { color: var(--muted); margin-top: 6px; font-size: 0.95rem; }
+    .lang-switch {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .lang-switch a {
+      display: inline-block;
+      margin: 0 8px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    section {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+    }
+    section h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    section p, section li {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    section ul {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+    section li { margin-bottom: 4px; }
+    .highlight {
+      background: #e8f4fd;
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #1a3a5c;
+    }
+    a { color: var(--accent); }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-top: 40px;
+    }
+    hr.divider {
+      border: none;
+      border-top: 2px dashed var(--border);
+      margin: 48px 0 32px;
+    }
+    .en header h1 { font-size: 1.8rem; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ===== 中文版 ===== -->
+  <div id="zh">
+    <header>
+      <h1>Cpia 隐私政策</h1>
+      <p>最后更新：2026 年 8 月 25 日</p>
+    </header>
+
+    <div class="lang-switch">
+      <a href="#zh">中文</a> · <a href="#en">English</a>
+    </div>
+
+    <section>
+      <h2>概述</h2>
+      <p>Cpia 是一款帮助个人用户记录、比较商品价格的 iOS 应用，由个人开发者独立开发。我们高度重视用户隐私，<strong>不收集、不存储、不出售任何个人信息</strong>。</p>
+    </section>
+
+    <section>
+      <h2>数据存储方式</h2>
+      <p>您在 Cpia 中创建的所有数据（品类、商品、价格、照片等）<strong>仅存储在您的设备本地</strong>，不会上传至任何服务器。</p>
+      <ul>
+        <li>数据保存于设备的沙盒存储（UserDefaults / 本地文件系统）中。</li>
+        <li>备份与恢复通过 App 内的导出/导入功能，由用户自行管理，我们无法访问备份文件。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>第三方服务：汇率 API</h2>
+      <p>为提供货币换算功能，Cpia 会向 <strong>ExchangeRate-API</strong>（<a href="https://www.exchangerate-api.com" target="_blank">exchangerate-api.com</a>）发送汇率请求。</p>
+      <ul>
+        <li>请求内容：仅包含基准货币代码（如 <code>CNY</code>），<strong>不包含任何用户标识、设备信息或个人数据</strong>。</li>
+        <li>该服务由第三方提供，受其<a href="https://www.exchangerate-api.com/terms" target="_blank">服务条款</a>约束。</li>
+        <li>用户可在设置页面选择填入自己的 API Key，该 Key 仅保存在本地设备，不经过我们的服务器。</li>
+      </ul>
+      <div class="highlight">网络请求是可选的——如不需要多币种比价，关闭汇率功能即可，App 不会自动联网。</div>
+    </section>
+
+    <section>
+      <h2>应用内购买（IAP）</h2>
+      <p>Cpia 提供一次性买断的完整版解锁。所有付款流程由 <strong>Apple App Store</strong> 处理，我们不接触任何支付信息或账单数据。</p>
+      <p>Apple 关于购买数据的隐私说明请参阅 <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隐私政策</a>。</p>
+    </section>
+
+    <section>
+      <h2>我们不收集的信息</h2>
+      <ul>
+        <li>姓名、邮箱、电话等个人身份信息</li>
+        <li>位置信息</li>
+        <li>设备唯一标识符（IDFA / IDFV）</li>
+        <li>崩溃报告或使用分析（App 内未集成任何分析 SDK）</li>
+        <li>广告跟踪数据</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>儿童隐私</h2>
+      <p>Cpia 不面向 13 岁以下儿童，也不有意收集任何儿童信息。</p>
+    </section>
+
+    <section>
+      <h2>隐私政策变更</h2>
+      <p>如本政策有重大变更，我们会在 App 更新说明中注明。继续使用即视为接受更新后的政策。</p>
+    </section>
+
+    <section>
+      <h2>联系我们</h2>
+      <p>如您对本隐私政策有任何疑问，欢迎通过以下方式联系我们：</p>
+      <p style="margin-top:8px;"><a href="mailto:rhythm_aside.7q@icloud.com">rhythm_aside.7q@icloud.com</a></p>
+    </section>
+  </div>
+
+  <hr class="divider" />
+
+  <!-- ===== English Version ===== -->
+  <div id="en" class="en">
+    <header>
+      <h1>Cpia Privacy Policy</h1>
+      <p>Last updated: August 25, 2026</p>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <p>Cpia is an iOS app for personal price tracking and comparison, developed independently by a single developer. We take your privacy seriously and <strong>do not collect, store, or sell any personal information</strong>.</p>
+    </section>
+
+    <section>
+      <h2>Data Storage</h2>
+      <p>All data you create in Cpia (categories, products, prices, photos, etc.) is <strong>stored locally on your device only</strong> and is never uploaded to any server.</p>
+      <ul>
+        <li>Data is saved in the app's sandboxed storage (UserDefaults / local file system).</li>
+        <li>Backup and restore are managed entirely by you using the export/import feature. We have no access to your backup files.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Third-Party Service: Exchange Rate API</h2>
+      <p>To support currency conversion, Cpia sends requests to <strong>ExchangeRate-API</strong> (<a href="https://www.exchangerate-api.com" target="_blank">exchangerate-api.com</a>).</p>
+      <ul>
+        <li>Requests contain only a currency code (e.g. <code>CNY</code>). <strong>No user identifiers, device information, or personal data are included.</strong></li>
+        <li>This service is operated by a third party and is subject to their <a href="https://www.exchangerate-api.com/terms" target="_blank">Terms of Service</a>.</li>
+        <li>You may optionally enter your own API key in Settings. It is stored locally on your device and never transmitted to our servers.</li>
+      </ul>
+      <div class="highlight">Network requests are optional. If you only use a single currency, no network calls are made.</div>
+    </section>
+
+    <section>
+      <h2>In-App Purchases</h2>
+      <p>Cpia offers a one-time purchase to unlock the full version. All payment processing is handled by <strong>Apple App Store</strong>. We do not have access to any payment or billing information.</p>
+      <p>For details on how Apple handles purchase data, see the <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.</p>
+    </section>
+
+    <section>
+      <h2>Information We Do Not Collect</h2>
+      <ul>
+        <li>Personal identifiers (name, email, phone number)</li>
+        <li>Location data</li>
+        <li>Device identifiers (IDFA / IDFV)</li>
+        <li>Crash reports or usage analytics (no analytics SDK is included)</li>
+        <li>Advertising or tracking data</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Children's Privacy</h2>
+      <p>Cpia is not directed at children under the age of 13 and does not knowingly collect any information from them.</p>
+    </section>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>If we make significant changes to this policy, we will note them in the App Store release notes. Continued use of the app constitutes acceptance of the updated policy.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+      <p style="margin-top:8px;"><a href="mailto:rhythm_aside.7q@icloud.com">rhythm_aside.7q@icloud.com</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2026 Cpia · <a href="mailto:rhythm_aside.7q@icloud.com">rhythm_aside.7q@icloud.com</a></p>
+  </footer>
+
+</div>
+</body>
+</html>

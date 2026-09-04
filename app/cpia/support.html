@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cpia 支持 / Support</title>
+  <style>
+    :root {
+      --accent: #007aff;
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --border: #d2d2d7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 24px 16px 64px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    header { text-align: center; padding: 40px 0 32px; }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+    header p { color: var(--muted); margin-top: 6px; font-size: 0.95rem; }
+    .lang-switch {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .lang-switch a {
+      display: inline-block;
+      margin: 0 8px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    section {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+    }
+    section h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    section p, section li {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    section ul {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+    section li { margin-bottom: 8px; }
+    .contact-btn {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 10px 24px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    a { color: var(--accent); }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-top: 40px;
+    }
+    hr.divider {
+      border: none;
+      border-top: 2px dashed var(--border);
+      margin: 48px 0 32px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ===== 中文版 ===== -->
+  <div id="zh">
+    <header>
+      <h1>Cpia 支持</h1>
+      <p>遇到问题？我们来帮你。</p>
+    </header>
+
+    <div class="lang-switch">
+      <a href="#zh">中文</a> · <a href="#en">English</a>
+    </div>
+
+    <section>
+      <h2>常见问题</h2>
+      <ul>
+        <li>
+          <strong>数据会自动同步到云端吗？</strong><br/>
+          不会。所有数据仅保存在你的设备本地，不上传任何服务器。如需在设备间迁移，请使用 App 内的"备份与恢复"功能。
+        </li>
+        <li>
+          <strong>购买完整版后，怎么在其他设备恢复？</strong><br/>
+          在新设备上打开 Cpia，进入设置页面，点击"恢复购买"，使用同一个 Apple ID 登录即可自动恢复。
+        </li>
+        <li>
+          <strong>家庭共享如何使用？</strong><br/>
+          完整版支持家庭共享。家庭组中的其他成员打开 Cpia 后，同样点击"恢复购买"即可获得完整版权限。
+        </li>
+        <li>
+          <strong>汇率数据从哪里来，准确吗？</strong><br/>
+          汇率数据来自 ExchangeRate-API，每次打开汇率功能时自动更新。数据为参考汇率，与银行实际兑换汇率可能略有出入。
+        </li>
+        <li>
+          <strong>我的数据丢了怎么办？</strong><br/>
+          请检查是否之前通过"导出备份"保存过文件。如果没有备份，本地数据在卸载 App 后无法恢复。建议定期使用备份功能导出保存至文件 App。
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>联系我们</h2>
+      <p>如果以上内容未能解决你的问题，欢迎直接发邮件给我们，我们通常在 1–3 个工作日内回复。</p>
+      <a class="contact-btn" href="mailto:rhythm_aside.7q@icloud.com">发送邮件</a>
+    </section>
+
+    <section>
+      <h2>隐私政策</h2>
+      <p>查看完整的 <a href="./privacy-policy.html">Cpia 隐私政策</a>。</p>
+    </section>
+  </div>
+
+  <hr class="divider" />
+
+  <!-- ===== English Version ===== -->
+  <div id="en">
+    <header>
+      <h1>Cpia Support</h1>
+      <p>Having trouble? We're here to help.</p>
+    </header>
+
+    <section>
+      <h2>FAQ</h2>
+      <ul>
+        <li>
+          <strong>Is my data backed up to the cloud?</strong><br/>
+          No. All data is stored locally on your device only and never uploaded to any server. To transfer data between devices, use the Backup &amp; Restore feature inside the app.
+        </li>
+        <li>
+          <strong>How do I restore my Full Version purchase on a new device?</strong><br/>
+          Open Cpia on your new device, go to Settings, and tap "Restore Purchases." Sign in with the same Apple ID used for the original purchase and it will restore automatically.
+        </li>
+        <li>
+          <strong>How does Family Sharing work?</strong><br/>
+          The Full Version supports Family Sharing. Other members of your Family Sharing group can tap "Restore Purchases" in Settings to unlock the full version at no extra cost.
+        </li>
+        <li>
+          <strong>Where does the exchange rate data come from?</strong><br/>
+          Exchange rates are provided by ExchangeRate-API and are updated each time you use the currency feature. Rates are indicative and may differ slightly from bank exchange rates.
+        </li>
+        <li>
+          <strong>I lost my data. Can I recover it?</strong><br/>
+          Check if you previously exported a backup file. If no backup exists, data cannot be recovered after uninstalling the app. We recommend exporting backups regularly to Files app.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>If the above didn't help, feel free to email us. We typically respond within 1–3 business days.</p>
+      <a class="contact-btn" href="mailto:rhythm_aside.7q@icloud.com">Send Email</a>
+    </section>
+
+    <section>
+      <h2>Privacy Policy</h2>
+      <p>Read the full <a href="./privacy-policy.html">Cpia Privacy Policy</a>.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2026 Cpia · <a href="mailto:rhythm_aside.7q@icloud.com">rhythm_aside.7q@icloud.com</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
